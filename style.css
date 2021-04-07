@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1 {
+    width: 432px;
+    text-align: left;
+    color: darkolivegreen;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 6px 6px rgba(196, 194, 194, 0.473)  ;
+}
+
+.first{
+    width: 300px;
+    height: 500px;
+    background-image: url(bild.jpg);
+    background-size: cover; 
+}
+
+.inputs { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    height: 500px;
+}
+
+
+input {
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    outline-style: none;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+label {
+    font-size: 10px;
+    position: absolute;
+    color:darkgray;
+    
+}
+
+.button {
+    border-style: none;
+    outline: none;
+    width: 180px;
+    background-color: rgb(47, 63, 47);
+    color: white;
+}
+    
+.form-four {
+    display: flex;
+    flex-direction: row;
+    color: darkgrey;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+
+a {
+    color:darkolivegreen
+}
